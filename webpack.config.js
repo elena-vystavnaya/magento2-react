@@ -1,3 +1,5 @@
+console.log(__dirname);
+
 module.exports = {
     plugins: [
         new FileManagerPlugin({
@@ -11,7 +13,7 @@ module.exports = {
                             ),
                             destination: path.join(
                                 __dirname,
-                                "../../magento/app/code/My/React/view/frontend/web/css/react.css"
+                                "../../magento2/app/code/Magento2/react-app/view/frontend/web/css/react.less"
                             ),
                         },
                     ],
@@ -30,7 +32,7 @@ module.exports = {
                             ),
                             destination: path.join(
                                 __dirname,
-                                "../../magento/app/code/My/React/view/frontend/web/js/react.js"
+                                "../../magento2/app/code/Magento2/react-app/view/frontend/web/css/react.css"
                             ),
                         },
                     ],
